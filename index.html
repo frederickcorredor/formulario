@@ -7,9 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="https://formsubmit.co/frederick@desarrolladorweb.online" method="POST">
+    <header>
+        <section class="banner">
+            <h1>Queremos que formes parte de nuestro equipo</h1>
+            <p>AGMEN</p>
+        </section>
+        
+    </header>
+
+    <section class="beneficios">
+        <div>
+            <h2>Aplica para el cargo de teleoperadora</h2>
+            <p>
+                <ul>
+                    <li>condicion</li>
+                    <li>condicion</li>
+                    <li>condicion</li>
+                    <li>condicion</li>
+                    <li>condicion</li>
+                    <li>condicion</li>
+                </ul>
+            </p>
+        </div>
+    </section>
+
+    <section class="aplicacion">
+        <h2>Postuláte para el cargo</h2>
+        <p>
+            llena cuidadosamente el formulario, y adjunta tu 
+            hoja de vida en formato pdf
+        </p>
+
+
+    </section>
+
+    <form action="https://formsubmit.co/frederick@desarrolladorweb.online" method="POST" enctype="multipart/form-data">
         <input type="text" name="name" placeholder="nombre" required>
         <input type="email" name="email" placeholder="Email Address">
+        <input type="file" name="attachment" accept="doc/pdf">
         <button type="submit">Send</button>
 
         <input type="hidden" name="_subject" value="Nuevo formulario!">
@@ -18,5 +53,6 @@
         <input type="hidden" name="_captcha" value="false">
 
     </form>
+
 </body>
 </html>
